@@ -1,7 +1,6 @@
 # MonsArena
 
 ## OVERVIEW
-```
 MonsArena is a fully playable turn-based monster battle game written in C++17
 using the SFML graphics library. Players choose a custom name and one of three
 elemental monsters — Fire, Water, or Earth — before entering a head-to-head
@@ -19,13 +18,10 @@ The project is structured as a dual-layer codebase:
 
 The game runs at 60 FPS in a 1280x720 window and is compiled as a Visual Studio
 C++ project.
-```
 
 ---
 
 ## HIGHLIGHTS
-
-```
 ★  Three selectable elemental monsters (IGNIS / AQUA / TERRA), each with a
    unique attack set and type-advantage multipliers.
 
@@ -48,8 +44,6 @@ C++ project.
    synchronisation before acting.
 
 ★  XP and level-up hooks on the Monster class for future progression features.
-```
-
 ---
 
 ## FEATURES
@@ -89,8 +83,6 @@ FEATURES/
 ---
 
 ## OBJECTIVES
-
-```
 [PRIMARY]
   > Demonstrate core C++ OOP principles in a real interactive game context.
   > Implement a clean separation between game logic and rendering layers.
@@ -107,7 +99,6 @@ FEATURES/
   > Explore operator overloading, method overloading, and static class members.
   > Understand resource management with smart pointers (unique_ptr).
   > Integrate a third-party graphics library (SFML) into a C++ project.
-```
 
 ---
 
@@ -155,10 +146,8 @@ FEATURES/
 ---
 
 ## CONCEPTS
-
-```
 OBJECT-ORIENTED PROGRAMMING
-────────────────────────────
+───────────────────────────
   [✓] Encapsulation      — All monster state is private; exposed via getters only
   [✓] Inheritance        — FireMonster / WaterMonster / EarthMonster extend Monster
                          — DamageAttack / HealAttack / StatusAttack extend Attack
@@ -188,13 +177,10 @@ C++ LANGUAGE FEATURES
   [✓] Operator overload  — (scoped for future extension)
   [✓] Delta-time loop    — Clock-based dt ensures frame-rate independent logic
   [✓] Event polling      — SFML event system for input, text, and window events
-```
 
 ---
 
 ##  TECHNOLOGIES
-
-```
 LANGUAGE
   C++17
   Compiled with MSVC via Visual Studio 2022
@@ -210,23 +196,20 @@ STANDARD LIBRARY
   <string>    <vector>    <memory>
   <algorithm> <cmath>     <random>
   <cstdlib>   <ctime>     <cstddef>
-```
 
 ---
 
 
 ## FUTURE_IMPROVEMENTS
-
-```
 GAMEPLAY
-  [ ] Inventory system — let players use HealingItems / BuffItems mid-battle
-  [ ] Multiple enemy encounters — enemy roster with different types and levels
-  [ ] Difficulty selector — Easy / Normal / Hard changes AI attack priority logic
+- Inventory system — let players use HealingItems / BuffItems mid-battle
+- Multiple enemy encounters — enemy roster with different types and levels
+- Difficulty selector — Easy / Normal / Hard changes AI attack priority logic
 
 VISUALS & AUDIO
-  [ ] Sprite sheets — replace circles with hand-drawn or generated monster art
-  [ ] Sound effects — attack SFX, hit sounds, victory fanfare via SFML Audio
-  [ ] Background music — looping battle OST tracks
-```
+- Sprite sheets — replace circles with hand-drawn or generated monster art
+- Sound effects — attack SFX, hit sounds, victory fanfare via SFML Audio
+- Background music — looping battle OST tracks
+  
 ---
 
