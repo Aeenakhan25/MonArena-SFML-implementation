@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\HP\source\repos\MonsArenaGame\MonsArenaGame\main.cpp(101,22): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  LINK : C:\Users\HP\source\repos\MonsArenaGame\x64\Debug\MonsArenaGame.exe not found or not built by the last incremental link; performing full link
+  MonsArenaGame.vcxproj -> C:\Users\HP\source\repos\MonsArenaGame\x64\Debug\MonsArenaGame.exe
